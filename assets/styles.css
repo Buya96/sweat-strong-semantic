@@ -1,0 +1,162 @@
+/* styles.css - started 26/4/25, last updated 8/5/25 */
+/* Khabir & Amir's color choices */
+:root {
+    --primary-color: #000000;
+    --secondary-color: #FF0000;
+    --tertiary-color: #800080;
+    /* --alt-color: #9932CC; // didn't look right */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* font-family: 'Roboto', sans-serif; // maybe switch later */
+}
+
+/* Navbar - fixed mobile bug 1/5/25 */
+.navbar {
+    background-color: var(--primary-color) !important;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+/* Hero section - overlay for contrast */
+.hero-section {
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('https://images.unsplash.com/photo-1576678927484-cc907957088c') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Buttons - made these pop for CTA */
+.cta-button, .btn-submit {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.cta-button:hover, .btn-submit:hover {
+    background-color: var(--tertiary-color);
+    transform: scale(1.05);
+}
+
+/* Section for intro features on homepage */
+.intro-section {
+    padding: 3rem 0;
+}
+.intro-feature {
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.intro-feature:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.intro-feature i {
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Social icons - consistent  */
+.social-icon {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.social-icon:hover {
+    color: var(--tertiary-color);
+}
+
+/* Gallery - finally got images same height! */
+.gallery-img {
+    object-fit: cover;
+    width: 100%;
+    height: 220px;
+    border-radius: 12px;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+.gallery-img:hover {
+    transform: scale(1.03);
+    border-color: var(--tertiary-color);
+}
+
+/* Section headers - red for energy */
+.section-title {
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+/* Membership cards - hover effect added 1/5 */
+.membership-card {
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+.membership-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--tertiary-color);
+}
+
+/* Contact form - looks much better with shadow */
+.contact-form {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.form-control:focus {
+    border-color: var(--tertiary-color);
+    box-shadow: 0 0 0 0.25rem rgba(128, 0, 128, 0.25);
+}
+
+/* Map styling - matches form */
+.map-container {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Contact info - icons in red */
+.location-info {
+    margin-top: 20px;
+}
+.location-info i {
+    color: var(--secondary-color);
+    margin-right: 10px;
+}
+
+/* Page header for contact page - image overlay */
+.page-header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd') center/cover;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+}
+
+/* Footer - simple, but works */
+footer {
+    font-size: 0.95rem;
+}
