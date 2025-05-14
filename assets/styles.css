@@ -11,6 +11,44 @@ body {
     font-family: 'Arial', sans-serif;
     /* font-family: 'Roboto', sans-serif; // maybe switch later */
 }
+/* Gallery responsive styles */
+.gallery-container {
+    margin-bottom: 3rem;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    border-color: var(--tertiary-color);
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 576px) {
+    .gallery-img {
+        height: 180px;
+    }
+}
+
+@media (min-width: 992px) {
+    .gallery-img {
+        height: 240px;
+    }
+}
+
 
 /* Remove underlines from social icons */
 .social-icon {
