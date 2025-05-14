@@ -12,6 +12,19 @@ body {
     /* font-family: 'Roboto', sans-serif; // maybe switch later */
 }
 
+/* Remove underlines from social icons */
+.social-icon {
+    text-decoration: none !important;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.social-icon:hover {
+    color: var(--tertiary-color);
+}
+
+
 /* Navbar - fixed mobile bug 1/5/25 */
 .navbar {
     background-color: var(--primary-color) !important;
@@ -156,7 +169,7 @@ body {
     margin-bottom: 3rem;
 }
 
-/* Footer - simple, but works */
+/* Footer */
 footer {
     font-size: 0.95rem;
 }
