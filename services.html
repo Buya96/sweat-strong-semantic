@@ -109,48 +109,55 @@
     </div>
     <h2 class="section-title text-center">Gallery</h2>
 <div class="gallery-container">
-    <div class="row g-3">
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="gallery-item">
-                <img src="assets/images/gallery/weights-area.png" class="gallery-img" alt="Modern free weights area with dumbbells and benches">
-            </div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="gallery-item">
-                <img src="assets/images/gallery/cardio-zone.png" class="gallery-img" alt="State-of-the-art cardio equipment zone">
-            </div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="gallery-item">
-                <img src="assets/images/gallery/group-fitness.png" class="gallery-img" alt="Energetic group fitness class in session">
-            </div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="gallery-item">
-                <img src="assets/images/gallery/yoga-studio.png" class="gallery-img" alt="Peaceful yoga studio with mats and natural light">
-            </div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="gallery-item">
-                <img src="assets/images/gallery/personal-training.png" class="gallery-img" alt="Personal trainer coaching a client">
-            </div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="gallery-item">
-                <img src="assets/images/gallery/nutrition.png" class="gallery-img" alt="Nutrition consultation and meal planning">
-            </div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="gallery-item">
-                <img src="assets/images/gallery/recovery-area.png" class="gallery-img" alt="Sauna and recovery facilities">
-            </div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="gallery-item">
-                <img src="assets/images/gallery/shake-bar.png" class="gallery-img" alt="Protein shake and smoothie bar">
-            </div>
-        </div>
+  <div class="row g-3">
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="gallery-item">
+        <img src="assets/images/gallery/weights-area.png" class="gallery-img modal-trigger" alt="Modern free weights area with dumbbells and benches">
+      </div>
     </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="gallery-item">
+        <img src="assets/images/gallery/cardio-zone.png" class="gallery-img modal-trigger" alt="State-of-the-art cardio equipment zone">
+      </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="gallery-item">
+        <img src="assets/images/gallery/group-fitness.png" class="gallery-img modal-trigger" alt="Energetic group fitness class in session">
+      </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="gallery-item">
+        <img src="assets/images/gallery/yoga-studio.png" class="gallery-img modal-trigger" alt="Peaceful yoga studio with mats and natural light">
+      </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="gallery-item">
+        <img src="assets/images/gallery/personal-training.png" class="gallery-img modal-trigger" alt="Personal trainer coaching a client">
+      </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="gallery-item">
+        <img src="assets/images/gallery/nutrition.png" class="gallery-img modal-trigger" alt="Nutrition consultation and meal planning">
+      </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="gallery-item">
+        <img src="assets/images/gallery/recovery-area.png" class="gallery-img modal-trigger" alt="Sauna and recovery facilities">
+      </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="gallery-item">
+        <img src="assets/images/gallery/shake-bar.png" class="gallery-img modal-trigger" alt="Protein shake and smoothie bar">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for image pop-out -->
+<div id="imgModal" class="modal-img">
+  <span class="close">&times;</span>
+  <img class="modal-content-img" id="modalImg">
+  <div id="caption"></div>
 </div>
 
 <hr style="border: none; border-top: 1.5px solid #eee; margin: 3rem 0 0 0;">
@@ -173,6 +180,28 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.querySelectorAll('.modal-trigger').forEach(function(img) {
+  img.onclick = function() {
+    var modal = document.getElementById('imgModal');
+    var modalImg = document.getElementById('modalImg');
+    var captionText = document.getElementById('caption');
+    modal.style.display = "flex";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+});
+document.querySelector('.modal-img .close').onclick = function() {
+  document.getElementById('imgModal').style.display = "none";
+};
+window.onclick = function(event) {
+  var modal = document.getElementById('imgModal');
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+};
+</script>
+
 </body>
 </html>
 
