@@ -135,7 +135,7 @@ This website was developed using **Visual Studio Code** and version control with
 - **Google Fonts**: [https://fonts.google.com/](https://fonts.google.com/)
 - **JavaScript modal gallery**: Based on [W3Schools modal images example](https://www.w3schools.com/howto/howto_css_modal_images.asp)
 - **Unsplash**: [https://unsplash.com/](https://unsplash.com/) for all hero and gallery images
-- **Balsamiq/Excalidraw**: for wireframes
+- **Balsamiq**: for wireframes
 
 ---
 **Crafted with love and attention by Ayub Saqib**  
