@@ -15,8 +15,8 @@ A modern, mobile-first website for Leicester’s newest strength-focused gym.
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 - [Attribution](#attribution)
+- [Reflection](#reflection)
 - [Acknowledgements](#acknowledgements)
-- [License](#license)
 
 ## Project Overview
 Sweat Strong Gym’s website is a three-page, mobile-first site built to showcase facilities, memberships, and contact options for prospective members. It uses a bold, energetic color palette and interactive features to create a compelling user journey.
@@ -141,6 +141,17 @@ This website was developed using **Visual Studio Code** and version control with
 **Crafted with love and attention by Ayub Saqib**  
 *Student Developer @ Code Institute*
 *For any questions or feedback, please open an issue or contact me directly!*
+
+## Reflection
+
+Working on the Sweat Strong Gym website has been a rewarding and eye-opening experience. At first, I was a bit overwhelmed by the amount of planning and detail that goes into building a professional, mobile-first site from scratch. Getting the folder structure and asset management right took longer than expected, but it really helped me understand the importance of organization in web projects.
+
+One of the biggest challenges was making sure the site looked great and worked smoothly on both desktop and mobile devices. I spent a lot of time testing different layouts and tweaking the CSS to get the gallery and navigation working responsively. Integrating accessibility features like `aria-labels` and ensuring all images had descriptive `alt` text made me much more aware of inclusive design.
+
+I also learned a lot about using external libraries like Bootstrap and Font Awesome, and how to blend them with custom CSS for a unique look. Setting up deployment with GitHub Pages was new to me, but now I feel confident about putting a project live for others to see.
+
+If I were to do this project again, I’d start the wireframing and content planning even earlier, and maybe try out a CSS preprocessor for better style management. Overall, I’m proud of what I’ve built and grateful for the feedback and support from my mentor, friends, and the Code Institute community.
+
 
 ## Acknowledgements
 Special thanks to:
