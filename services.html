@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- ====== META & TITLE ====== -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sweat Strong Gym | Services</title>
@@ -17,15 +18,20 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
+
+    <!-- ====== NAVIGATION BAR ====== -->
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
+        <!-- Logo and brand name -->
         <a class="navbar-brand" href="index.html" target="_blank">
             <img src="assets/favicon/favicon-32x32.png" alt="Sweat Strong Logo" width="32" height="32" />
             SWEAT STRONG
         </a>
+         <!-- Hamburger menu for mobile -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
+         <!-- Navigation links -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
@@ -42,9 +48,11 @@
     </div>
 </nav>
 
+<!-- ====== MEMBERSHIP TIERS SECTION ====== -->
 <div class="container my-5">
     <h2 class="section-title text-center">Membership Tiers</h2>
     <div class="row g-4 justify-content-center">
+        <!-- Membership cards for Basic, Plus, Premium -->
         <div class="col-md-4">
             <div class="card membership-card text-center p-3">
                 <h5 class="card-title">Basic</h5>
@@ -68,8 +76,10 @@
         </div>
     </div>
 
+    <!-- ====== CLASSES & FACILITIES SECTION ====== -->
     <h2 class="section-title text-center">Classes & Facilities</h2>
     <div class="row g-4 justify-content-center">
+        <!-- List of classes and facilities -->
         <div class="col-md-4">
             <div class="card membership-card text-center p-3">
                 <h6 class="card-title">HIIT & Circuit Training</h6>
@@ -107,6 +117,8 @@
             </div>
         </div>
     </div>
+
+    <!-- ====== GALLERY SECTION ====== -->
     <h2 class="section-title text-center">Gallery</h2>
 <div class="gallery-container">
   <div class="row g-3">
@@ -164,6 +176,7 @@
 <!-- Updated Social Icons in Footer -->
 <footer class="mt-5 py-4 bg-dark text-center">
     <div>
+        <!-- Social media links -->
         <a href="https://www.facebook.com" class="social-icon" target="_blank" aria-label="Facebook">
             <i class="fab fa-facebook-f"></i>
         </a>
@@ -177,9 +190,9 @@
     <div class="text-secondary mt-2">&copy; 2025 Sweat Strong Gym. All rights reserved.</div>
 </footer>
 
-
-
+<!-- ====== BOOTSTRAP JS (FOR NAVBAR AND COMPONENTS) ====== -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+ <!-- ====== GALLERY MODAL JS ====== -->
 <script>
 document.querySelectorAll('.modal-trigger').forEach(function(img) {
   img.onclick = function() {
