@@ -6,7 +6,7 @@ A modern, mobile-first website for Leicester’s newest strength-focused gym.
 - [Project Goals](#project-goals)
 - [User Stories](#user-stories)
 - [User Experience](#user-experience)
-  - [Colour Experience](#colour-experience)
+- [Colour Experience](#colour-experience)
 - [Wireframes](#wireframes)
 - [Screenshots](#screenshots)
 - [Manual Testing](#manual-testing)
