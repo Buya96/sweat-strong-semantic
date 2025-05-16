@@ -61,12 +61,12 @@ The site was designed with a mobile-first approach, ensuring all features are ac
 ### Desktop Screenshots
 | Home Page | Services Page | Join/Contact Page |
 |-----------|--------------|------------------|
-| ![Desktop Home Screenshot](assets/screenshots/desktop-home.png) | ![Desktop Services Screenshot](assets/screenshots/desktop-services.png) | ![Desktop Contact Screenshot](assets/screenshots/desktop-contact.png) |
+| ![Desktop Home Screenshot](assets/screenshots/desktop-home.PNG) | ![Desktop Services Screenshot](assets/screenshots/desktop-services.PNG) | ![Desktop Contact Screenshot](assets/screenshots/desktop-contact.PNG) |
 
 ### Mobile Screenshots
 | Home Page | Services Page | Join/Contact Page |
 |-----------|--------------|------------------|
-| ![Mobile Home Screenshot](assets/screenshots/mobile-home.png) | ![Mobile Services Screenshot](assets/screenshots/mobile-services.png) | ![Mobile Contact Screenshot](assets/screenshots/mobile-contact.png) |
+| ![Mobile Home Screenshot](assets/screenshots/mobile-home.PNG) | ![Mobile Services Screenshot](assets/screenshots/mobile-services.PNG) | ![Mobile Contact Screenshot](assets/screenshots/mobile-contact.PNG) |
 
 ## Manual Testing
 | Feature                 | Desktop | Tablet | Mobile | Notes |
