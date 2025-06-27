@@ -1,155 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- ====== META & TITLE ====== -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sweat Strong Gym | Services</title>
-    
-    <!-- ====== EXTERNAL STYLESHEETS ====== -->
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-    <!-- Favicons -->
-    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-    <link rel="apple-touch-icon" href="assets/favicon/favicon-32x32.png" />
-    <!-- Main stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- ====== META & TITLE ====== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sweat Strong Gym | Services</title>
+
+  <!-- ====== EXTERNAL STYLESHEETS ====== -->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <!-- Favicons -->
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="apple-touch-icon" href="assets/favicon/favicon-32x32.png" />
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
 
-    <!-- ====== SITE HEADER WITH NAVIGATION ====== -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <!-- Logo and brand name -->
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/favicon/favicon-32x32.png" alt="Sweat Strong Logo" width="32" height="32" />
-                    SWEAT STRONG
-                </a>
-                <!-- Hamburger menu for mobile -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Navigation links -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="services.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Join</a>
-                        </li>
-                    </ul>
-                </div>
+  <!-- ====== SITE HEADER WITH NAVIGATION ====== -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/favicon/favicon-32x32.png" alt="Sweat Strong Logo" width="32" height="32" />
+          SWEAT STRONG
+        </a>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Join</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ====== MAIN CONTENT ====== -->
+  <main>
+    <div class="container my-5">
+
+      <!-- ====== MEMBERSHIP TIERS ====== -->
+      <section aria-labelledby="membership-tiers">
+        <header class="text-center mb-4">
+          <h2 id="membership-tiers" class="section-title">Membership Tiers</h2>
+        </header>
+        <div class="row g-4 justify-content-center">
+          <article class="col-md-4">
+            <div class="card membership-card text-center p-3">
+              <h5 class="card-title">Basic</h5>
+              <p class="card-text">24/7 Gym Access<br>Cardio & Weights<br>Locker Room</p>
+              <p class="fw-bold text-secondary">£29/month</p>
             </div>
-        </nav>
-    </header>
+          </article>
+          <article class="col-md-4">
+            <div class="card membership-card text-center p-3">
+              <h5 class="card-title">Plus</h5>
+              <p class="card-text">All Basic Features<br>+ Unlimited Classes<br>Sauna Access</p>
+              <p class="fw-bold text-secondary">£45/month</p>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card membership-card text-center p-3">
+              <h5 class="card-title">Premium</h5>
+              <p class="card-text">All Plus Features<br>+ Personal Training<br>Nutrition Coaching</p>
+              <p class="fw-bold text-secondary">£69/month</p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-    <!-- ====== MAIN CONTENT WRAPPER ====== -->
-    <main>
-        <div class="container my-5">
-            <!-- ====== MEMBERSHIP TIERS SECTION ====== -->
-            <section>
-                <header>
-                    <h2 class="section-title text-center">Membership Tiers</h2>
-                </header>
-                <div class="row g-4 justify-content-center">
-                    <!-- Membership cards for Basic, Plus, Premium -->
-                    <article class="col-md-4">
-                        <div class="card membership-card text-center p-3">
-                            <h5 class="card-title">Basic</h5>
-                            <p class="card-text">24/7 Gym Access<br>Cardio & Weights<br>Locker Room</p>
-                            <p class="fw-bold text-secondary">£29/month</p>
-                        </div>
-                    </article>
-                    <article class="col-md-4">
-                        <div class="card membership-card text-center p-3">
-                            <h5 class="card-title">Plus</h5>
-                            <p class="card-text">All Basic Features<br>+ Unlimited Classes<br>Sauna Access</p>
-                            <p class="fw-bold text-secondary">£45/month</p>
-                        </div>
-                    </article>
-                    <article class="col-md-4">
-                        <div class="card membership-card text-center p-3">
-                            <h5 class="card-title">Premium</h5>
-                            <p class="card-text">All Plus Features<br>+ Personal Training<br>Nutrition Coaching</p>
-                            <p class="fw-bold text-secondary">£69/month</p>
-                        </div>
-                    </article>
-                </div>
-            </section>
+      <!-- ====== CLASSES & FACILITIES ====== -->
+      <section aria-labelledby="classes-facilities" class="mt-5">
+        <header class="text-center mb-4">
+          <h2 id="classes-facilities" class="section-title">Classes & Facilities</h2>
+        </header>
+        <div class="row g-4 justify-content-center">
+          <article class="col-md-4">
+            <div class="card text-center p-3">
+              <h6>HIIT & Circuit Training</h6>
+              <p>Burn calories fast with high-intensity group workouts.</p>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card text-center p-3">
+              <h6>Yoga & Mobility</h6>
+              <p>Improve flexibility and mental focus in our dedicated studio.</p>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card text-center p-3">
+              <h6>Strength & Weightlifting</h6>
+              <p>Top-tier free weights, squat racks, and Olympic platforms.</p>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card text-center p-3">
+              <h6>Cardio Zone</h6>
+              <p>Modern treadmills, bikes, and rowers with entertainment screens.</p>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card text-center p-3">
+              <h6>Personal Training</h6>
+              <p>Expert trainers to help you reach your goals faster.</p>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card text-center p-3">
+              <h6>Relaxation Area</h6>
+              <p>Sauna, lounge, and smoothie bar for recovery and socializing.</p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-            <!-- ====== CLASSES & FACILITIES SECTION ====== -->
-            <section>
-                <header>
-                    <h2 class="section-title text-center">Classes & Facilities</h2>
-                </header>
-                <div class="row g-4 justify-content-center">
-                    <!-- List of classes and facilities -->
-                    <article class="col-md-4">
-                        <div class="card membership-card text-center p-3">
-                            <h6 class="card-title">HIIT & Circuit Training</h6>
-                            <p class="card-text">Burn calories fast with high-intensity group workouts.</p>
-                        </div>
-                    </article>
-                    <article class="col-md-4">
-                        <div class="card membership-card text-center p-3">
-                            <h6 class="card-title">Yoga & Mobility</h6>
-                            <p class="card-text">Improve flexibility and mental focus in our dedicated studio.</p>
-                        </div>
-                    </article>
-                    <article class="col-md-4">
-                        <div class="card membership-card text-center p-3">
-                            <h6 class="card-title">Strength & Weightlifting</h6>
-                            <p class="card-text">Top-tier free weights, squat racks, and Olympic platforms.</p>
-                        </div>
-                    </article>
-                    <article class="col-md-4">
-                        <div class="card membership-card text-center p-3">
-                            <h6 class="card-title">Cardio Zone</h6>
-                            <p class="card-text">Modern treadmills, bikes, and rowers with entertainment screens.</p>
-                        </div>
-                    </article>
-                    <article class="col-md-4">
-                        <div class="card membership-card text-center p-3">
-                            <h6 class="card-title">Personal Training</h6>
-                            <p class="card-text">Expert trainers to help you reach your goals faster.</p>
-                        </div>
-                    </article>
-                    <article class="col-md-4">
-                        <div class="card membership-card text-center p-3">
-                            <h6 class="card-title">Relaxation Area</h6>
-                            <p class="card-text">Sauna, lounge, and smoothie bar for recovery and socializing.</p>
-                        </div>
-                    </article>
-                </div>
-            </section>
+      <!-- ====== GALLERY ====== -->
+      <section aria-labelledby="gallery" class="mt-5">
+        <header class="text-center mb-4">
+          <h2 id="gallery" class="section-title">Gallery</h2>
+        </header>
+        <div class="gallery-container">
+          <div class="row g-3">
+            <article class="col-6 col-md-4 col-lg-3">
+              <div class="gallery-item">
+                <img src="assets/images/gallery/weights-area.png"
+                     class="gallery-img modal-trigger"
+                     alt="Modern free weights area with dumbbells and benches">
+              </div>
+            </article>
+            <article class="col-6 col-md-4 col-lg-3">
+              <div class="gallery-item">
+                <img src="assets/images/gallery/cardio-zone.png"
+                     class="gallery-img modal-trigger"
+                     alt="State-of-the-art cardio equipment zone">
+              </div>
+            </article>
+            <article class="col-6 col-md-4 col-lg-3">
+              <div class="gallery-item">
+                <img src="assets/images/gallery/group-fitness.png"
+                     class="gallery-img modal-trigger"
+                     alt="Energetic group fitness class in session">
+              </div>
+            </article>
+            <article class="col-6 col-md-4 col-lg-3">
+              <div class="gallery-item">
+                <img src="assets/images/gallery/yoga-studio.png"
+                     class="gallery-img modal-trigger"
+                     alt="Peaceful yoga studio with mats and natural light">
+              </div>
+            </article>
+            <article class="col-6 col-md-4 col-lg-3">
+              <div class="gallery-item">
+                <img src="assets/images/gallery/personal-training.png"
+                     class="gallery-img modal-trigger"
+                     alt="Personal trainer coaching a client">
+              </div>
+            </article>
+            <article class="col-6 col-md-4 col-lg-3">
+              <div class="gallery-item">
+                <img src="assets/images/gallery/nutrition.png"
+                     class="gallery-img modal-trigger"
+                     alt="Nutrition consultation and meal planning">
+              </div>
+            </article>
+            <article class="col-6 col-md-4 col-lg-3">
+              <div class="gallery-item">
+                <img src="assets/images/gallery/recovery-area.png"
+                     class="gallery-img modal-trigger"
+                     alt="Sauna and recovery facilities">
+              </div>
+            </article>
+            <article class="col-6 col-md-4 col-lg-3">
+              <div class="gallery-item">
+                <img src="assets/images/gallery/shake-bar.png"
+                     class="gallery-img modal-trigger"
+                     alt="Protein shake and smoothie bar">
+              </div>
+            </article>
+          </div>
+        </div>
 
-            <!-- ====== GALLERY SECTION ====== -->
-            <section>
-                <header>
-                    <h2 class="section-title text-center">Gallery</h2>
-                </header>
-                <div class="gallery-container">
-                    <div class="row g-3">
-                        <article class="col-6 col-md-4 col-lg-3">
-                            <div class="gallery-item">
-                                <img src="assets/images/gallery/weights-area.png" class="gallery-img modal-trigger" alt="Modern free weights area with dumbbells and benches">
-                            </div>
-                        </article>
-                        <article class="col-6 col-md-4 col-lg-3">
-                            <div class="gallery-item">
-                                <img src="assets/images/gallery/cardio-zone.png" class="gallery-img modal-trigger" alt="State-of-the-art cardio equipment zone">
-                            </div>
-                        </article>
-                        <article class="col-6 col-md-4 col-lg-3">
-                            <div class="gallery-item">
-                                <img src="assets/images/gallery/group-fitness.png" class="gallery-img modal-trigger" alt="Energetic group fitness class in session">
-                            </div>
+        <!-- Modal Structure (pop-out) -->
+        <div id="imgModal" class="modal-img">
+          <span class="close">&times;</span>
+          <img class="modal-content-img" id="modalImg">
+          <div id="caption"></div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="mt-5 py-4 bg-dark text-center">
+    <div>
+      <a href="https://www.facebook.com" class="social-icon" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com" class="social-icon" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.x.com" class="social-icon" target="_blank" aria-label="X (formerly Twitter)">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+    </div>
+    <div class="text-secondary mt-2">&copy; 2025 Sweat Strong Gym. All rights reserved.</div>
+  </footer>
+
+  <!-- ====== SCRIPTS ====== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Modal pop-out functionality
+    document.querySelectorAll('.modal-trigger').forEach(img => {
+      img.onclick = () => {
+        const modal = document.getElementById('imgModal');
+        document.getElementById('modalImg').src = img.src;
+        document.getElementById('caption').textContent = img.alt;
+        modal.style.display = 'flex';
+      };
+    });
+    document.querySelector('.modal-img .close').onclick = () => {
+      document.getElementById('imgModal').style.display = 'none';
+    };
+    window.onclick = e => {
+      if (e.target.id === 'imgModal') {
+        document.getElementById('imgModal').style.display = 'none';
+      }
+    };
+  </script>
+</body>
+</html>
+
