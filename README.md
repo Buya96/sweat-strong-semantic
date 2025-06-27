@@ -117,7 +117,7 @@ This website was developed using **Visual Studio Code** and version control with
 - GitHub will provide a link to your live website after a few moments.
 
 ### 🌐 Live Website
-[https://buya96.github.io/sweat-strong/](https://buya96.github.io/sweat-strong/)
+[https://buya96.github.io/sweat-strong-semantic/](https://buya96.github.io/sweat-strong-semantic/)
 
 ## Technologies Used
 - **HTML5** & **CSS3** (custom and Bootstrap 5)
