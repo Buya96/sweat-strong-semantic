@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <!-- ====== META & TITLE ====== -->
+    <!-- ====== META & TITLE ====== -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sweat Strong Gym | Home</title>
 
-     <!-- ====== EXTERNAL STYLESHEETS ====== -->
+    <!-- ====== EXTERNAL STYLESHEETS ====== -->
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Font Awesome -->
@@ -21,103 +21,110 @@
 </head>
 <body>
 
-<!-- ====== NAVIGATION BAR ====== -->
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-        <!-- Logo and brand name -->
-        <a class="navbar-brand" href="index.html">
-            <img src="assets/favicon/favicon-32x32.png" alt="Sweat Strong Logo" width="32" height="32" />
-            SWEAT STRONG
-        </a>
-        <!-- Hamburger menu for mobile -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-          <!-- Navigation links -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Join</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<!-- ====== HERO SECTION ====== -->
-<div class="hero-section text-center text-white">
-    <div class="container">
-        <h1 class="display-4 mb-4">Transform Your Body at Sweat Strong</h1>
-        <p class="lead mb-4">Leicester's premier fitness facility for strength training and personal development</p>
-        <a href="contact.html" target="_blank" class="btn cta-button">START YOUR FREE TRIAL</a>
-    </div>
-</div>
-
-<!-- ====== INTRO / FEATURES SECTION ====== -->
-<div class="intro-section">
-    <div class="container">
-        <div class="row text-center mb-5">
-            <div class="col-lg-8 mx-auto">
-                <h2>Welcome to <span style="color: var(--secondary-color);">Sweat Strong</span></h2>
-                <p class="lead">We're more than just a gym - we're a community dedicated to helping you achieve your fitness goals.</p>
-            </div>
-        </div>
-        <!-- Highlighted features: Equipment, Trainers, Classes -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="intro-feature">
-                    <i class="fas fa-dumbbell"></i>
-                    <h4>State-of-the-Art Equipment</h4>
-                    <p>Our facility features the latest fitness technology and premium weightlifting equipment.</p>
+    <!-- ====== SITE HEADER WITH NAVIGATION ====== -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <!-- Logo and brand name -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/favicon/favicon-32x32.png" alt="Sweat Strong Logo" width="32" height="32" />
+                    SWEAT STRONG
+                </a>
+                <!-- Hamburger menu for mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navigation links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Join</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="intro-feature">
-                    <i class="fas fa-users"></i>
-                    <h4>Expert Trainers</h4>
-                    <p>Our certified trainers are here to guide you through your fitness journey.</p>
+        </nav>
+    </header>
+
+    <!-- ====== MAIN CONTENT WRAPPER ====== -->
+    <main>
+        <!-- ====== HERO SECTION ====== -->
+        <section class="hero-section text-center text-white">
+            <div class="container">
+                <h1 class="display-4 mb-4">Transform Your Body at Sweat Strong</h1>
+                <p class="lead mb-4">Leicester's premier fitness facility for strength training and personal development</p>
+                <a href="contact.html" target="_blank" class="btn cta-button">START YOUR FREE TRIAL</a>
+            </div>
+        </section>
+
+        <!-- ====== INTRO / FEATURES SECTION ====== -->
+        <section class="intro-section">
+            <div class="container">
+                <!-- Welcome message and gym philosophy -->
+                <header class="row text-center mb-5">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Welcome to <span style="color: var(--secondary-color);">Sweat Strong</span></h2>
+                        <p class="lead">We're more than just a gym - we're a community dedicated to helping you achieve your fitness goals.</p>
+                    </div>
+                </header>
+                
+                <!-- Highlighted features: Equipment, Trainers, Classes -->
+                <div class="row">
+                    <article class="col-md-4">
+                        <div class="intro-feature">
+                            <i class="fas fa-dumbbell"></i>
+                            <h4>State-of-the-Art Equipment</h4>
+                            <p>Our facility features the latest fitness technology and premium weightlifting equipment.</p>
+                        </div>
+                    </article>
+                    <article class="col-md-4">
+                        <div class="intro-feature">
+                            <i class="fas fa-users"></i>
+                            <h4>Expert Trainers</h4>
+                            <p>Our certified trainers are here to guide you through your fitness journey.</p>
+                        </div>
+                    </article>
+                    <article class="col-md-4">
+                        <div class="intro-feature">
+                            <i class="fas fa-calendar-alt"></i>
+                            <h4>Diverse Classes</h4>
+                            <p>From HIIT to yoga, we offer a wide range of classes for all fitness levels.</p>
+                        </div>
+                    </article>
+                </div>
+                
+                <!-- Link to services page -->
+                <div class="text-center mt-5">
+                    <a href="services.html" target="_blank" class="btn btn-outline-dark">Discover Our Services</a>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="intro-feature">
-                    <i class="fas fa-calendar-alt"></i>
-                    <h4>Diverse Classes</h4>
-                    <p>From HIIT to yoga, we offer a wide range of classes for all fitness levels.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Link to services page -->
-        <div class="text-center mt-5">
-            <a href="services.html" target="_blank" class="btn btn-outline-dark">Discover Our Services</a>
-        </div>
-    </div>
-</div>
+        </section>
+    </main>
 
-<!-- ====== FOOTER WITH SOCIAL ICONS ====== -->
-<footer class="mt-5 py-4 bg-dark text-center">
-    <div>
-        <!-- Social media links -->
-        <a href="https://www.facebook.com" class="social-icon" target="_blank" aria-label="Facebook">
-            <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://www.instagram.com" class="social-icon" target="_blank" aria-label="Instagram">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.x.com" class="social-icon" target="_blank" aria-label="X (formerly Twitter)">
-            <i class="fab fa-x-twitter"></i>
-        </a>
-    </div>
-    <div class="text-secondary mt-2">&copy; 2025 Sweat Strong Gym. All rights reserved.</div>
-</footer>
+    <!-- ====== FOOTER WITH SOCIAL ICONS ====== -->
+    <footer class="mt-5 py-4 bg-dark text-center">
+        <div>
+            <!-- Social media links -->
+            <a href="https://www.facebook.com" class="social-icon" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com" class="social-icon" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.x.com" class="social-icon" target="_blank" aria-label="X (formerly Twitter)">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+        </div>
+        <div class="text-secondary mt-2">&copy; 2025 Sweat Strong Gym. All rights reserved.</div>
+    </footer>
 
-<!-- ====== BOOTSTRAP JS (FOR NAVBAR AND COMPONENTS) ====== -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- ====== BOOTSTRAP JS (FOR NAVBAR AND COMPONENTS) ====== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
